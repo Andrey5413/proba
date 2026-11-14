@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math Lock</string>
+
+    <!-- Главный экран -->
+    <string name="main_explain">Math Lock — блокировщик экрана с математикой. После выдачи разрешений приложение показывает пример, который нужно решить, чтобы разблокировать телефон. Нажмите «Выдать разрешения» и подтвердите все три запроса в системных настройках.</string>
+    <string name="button_permissions">Выдать разрешения</string>
+    <string name="button_settings">Настройки</string>
+    <string name="button_lock_now">Заблокировать сейчас</string>
+    <string name="button_test">Тест примера</string>
+    <string name="overlay_status">Поверх других приложений: %1$s</string>
+    <string name="admin_status">Device Admin: %1$s</string>
+    <string name="status_granted">выдано</string>
+    <string name="status_not_granted">не выдано</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_operations">Операции</string>
+    <string name="settings_op_add">Сложение (+)</string>
+    <string name="settings_op_sub">Вычитание (−)</string>
+    <string name="settings_op_mul">Умножение (×)</string>
+    <string name="settings_op_div">Деление (÷)</string>
+    <string name="settings_difficulty">Сложность</string>
+    <string name="settings_diff_easy">Легко (1 действие, числа 1–10)</string>
+    <string name="settings_diff_medium">Средне (1–2 действия, числа 1–20, скобки)</string>
+    <string name="settings_diff_hard">Сложно (2–3 действия, числа 1–50, скобки)</string>
+    <string name="settings_behavior">Поведение</string>
+    <string name="settings_lock_on_screen_on">Блокировать при включении экрана</string>
+
+    <!-- Экран блокировки -->
+    <string name="lock_hint">Реши пример, чтобы разблокировать</string>
+    <string name="answer_placeholder">Ответ</string>
+    <string name="button_unlock">Разблокировать</string>
+    <string name="wrong_answer">Неверно</string>
+
+    <!-- Overlay -->
+    <string name="overlay_message">Решите пример, чтобы разблокировать телефон</string>
+
+    <!-- Уведомление сервиса -->
+    <string name="notification_title">Math Lock работает</string>
+    <string name="notification_text">Экран защищён математическим примером</string>
+    <string name="notification_action_open">Открыть</string>
+    <string name="channel_name">Сервис блокировки</string>
+
+    <!-- Device Admin -->
+    <string name="device_admin_description">Разрешает мгновенную блокировку экрана после решения примера</string>
+    <string name="device_admin_explanation">Нужно для мгновенной блокировки экрана</string>
+
+    <!-- Сообщения (Toast) -->
+    <string name="toast_need_overlay">Нет разрешения «Поверх других приложений». Нажмите «Выдать разрешения».</string>
+    <string name="toast_need_admin">Сначала выдайте разрешение Device Admin кнопкой «Выдать разрешения».</string>
+    <string name="toast_lock_failed">Не удалось открыть экран блокировки</string>
+    <string name="toast_open_settings_failed">Не удалось открыть системные настройки</string>
+    <string name="toast_admin_enabled">Device Admin активирован</string>
+    <string name="toast_admin_disabled">Device Admin отключён</string>
+</resources>

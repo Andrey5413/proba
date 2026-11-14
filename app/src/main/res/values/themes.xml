@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основная тема приложения (материальные компоненты, светлая) -->
+    <style name="Theme.MathLock" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+    </style>
+
+    <!-- Тема экрана блокировки: тёмный фон, без ActionBar -->
+    <style name="Theme.MathLock.Lock" parent="Theme.MathLock">
+        <item name="android:windowBackground">@color/lock_background</item>
+        <item name="android:statusBarColor">@color/lock_background</item>
+        <item name="android:navigationBarColor">@color/lock_background</item>
+    </style>
+</resources>
