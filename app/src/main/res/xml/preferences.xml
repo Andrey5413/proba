@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="add"
+        android:title="@string/settings_op_add" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="sub"
+        android:title="@string/settings_op_sub" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="mul"
+        android:title="@string/settings_op_mul" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="div"
+        android:title="@string/settings_op_div" />
+
+    <ListPreference
+        android:defaultValue="easy"
+        android:entries="@array/difficulty_entries"
+        android:entryValues="@array/difficulty_values"
+        android:key="difficulty"
+        android:title="@string/settings_difficulty" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="lock_on_screen_on"
+        android:title="@string/settings_lock_on_screen_on" />
+
+</PreferenceScreen>
